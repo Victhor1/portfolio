@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-portfolio::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #121212;
+}
+
+.sidebar-portfolio::-webkit-scrollbar-thumb
+{
+    border-radius: 8px;
+    background-color: #535353;
+}
+
+.content-portfolio::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #181818;
+}
+
+.content-portfolio::-webkit-scrollbar-thumb
+{
+    border-radius: 8px;
+    background-color: #535353;
+}
